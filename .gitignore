@@ -1,0 +1,36 @@
+## Build artifacts
+[Bb]in/
+[Oo]bj/
+
+## Logs and Testing
+VisualStudioTestExplorerExtensions/
+TestResults/
+[Ll]ogs/
+
+## SQLite databases
+*.db
+*.db-shm
+*.db-wal
+
+## IDE settings
+.vs/
+.vscode/
+*.userosscache
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+
+## Secrets and environment overrides
+appsettings.Development.json
+secrets.json
+.env
+
+## Operating System files
+.DS_Store
+Thumbs.db
+
+## Backup and Publish
+*.bak
+publish/
+*.[Pp]ublish.xml
